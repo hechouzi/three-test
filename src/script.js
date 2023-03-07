@@ -25,7 +25,7 @@ const matcapTexture = textureLoader.load("textures/matcaps/8.png");
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture });
-  const textGeometry = new TextGeometry("Hello Three.js", {
+  const textGeometry = new TextGeometry("你好，加辉！", {
     font: font,
     size: 0.5,
     height: 0.2,
